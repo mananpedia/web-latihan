@@ -1,0 +1,794 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #ffffff;
+  font-family: "Comfortaa", cursive;
+}
+
+header {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 70px;
+  /* overflow: hidden; */
+  position: fixed;
+  background: #fff;
+  z-index: 99;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  width: 75%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.logo {
+  width: unset;
+  float: left;
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
+  margin: 12px 0px;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* margin-block-start: 0;
+margin-block-end: 0;
+padding-inline-start: 0; */
+}
+
+header nav ul li {
+  list-style: none;
+  /* float: right; */
+  margin-left: 20px;
+  /* display: block; */
+}
+
+header nav ul li a {
+  line-height: 70px;
+  height: 50px;
+  color: #111;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+}
+
+header nav ul li a:hover,
+header nav ul li a.aktif {
+  color: #7aa814;
+  transition: 0.4s ease;
+}
+
+header nav ul li a.aktif:hover {
+  color: #000;
+  background: #1aaaaa;
+}
+
+header nav li button {
+  float: right;
+  padding-inline-start: 0px;
+  margin-top: 18px;
+  font-size: 15px;
+  color: #fff;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #7aa814;
+  border-radius: 18px;
+}
+
+.menu-toggle {
+  float: right;
+  margin-top: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+.menu-toggle div {
+  height: 3px;
+  background: #7aa814;
+  margin: 3px 0px;
+  border-radius: 24px;
+  transition: 0.3s;
+}
+
+.satu {
+  width: 40px;
+}
+
+.dua {
+  width: 20px;
+}
+
+.tiga {
+  width: 30px;
+}
+
+.menu-toggle:hover div {
+  width: 45px;
+  transition: 0.3s;
+}
+
+.row1 {
+  width: 100%;
+  float: left;
+  margin-bottom: 80px;
+}
+
+.row1 img {
+  float: left;
+  margin-top: 140px;
+  box-sizing: border-box;
+  width: 400px;
+  height: 400px;
+}
+
+.row1 .text {
+  width: 50%;
+  float: right;
+  height: unset;
+}
+
+.row1 .text h2 {
+  padding: 0;
+  margin-top: 200px;
+  margin-bottom: 0;
+}
+
+.row1 .text p {
+  margin: 0;
+  color: gray;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.row1 .text .btn1 {
+  border-radius: 30px;
+  border-style: none;
+  background-color: #7aa814;
+  color: white;
+  text-decoration: none;
+  margin-top: 40px;
+  padding: 10px 15px 10px 15px;
+  font-size: 16px;
+}
+
+.row2 {
+  float: left;
+  width: 100%;
+  height: unset;
+  background: #7aa814;
+}
+
+.row2 .border {
+  width: 100%;
+  height: 15px;
+  position: relative;
+  background: #587e05;
+}
+
+.row2 .text2 {
+  float: left;
+  width: 50%;
+  margin-block-start: 0;
+}
+
+.row2 .text2 h2 {
+  color: #fff;
+  font-size: 24px;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+
+.row2 .text2 p {
+  color: #fff;
+  font-size: 13px;
+  line-height: 20px;
+  margin-block-start: 1.3em;
+  margin-block-end: 0;
+}
+
+.row2 .text2 p:nth-child(4) {
+  margin-bottom: 80px;
+}
+
+.row2 .video {
+  float: right;
+}
+
+.row2 .video video {
+  width: 400px;
+  margin-top: 100px;
+  padding: 25px 30px 15px 30px;
+  border-radius: 12px;
+  background: #000800;
+  outline: none;
+}
+
+.row3 {
+  float: left;
+  width: 100%;
+  height: unset;
+  margin-bottom: 80px;
+}
+
+.row3 .text3 {
+  float: left;
+  width: 50%;
+}
+
+.row3 .text3 .gambar2 img {
+  margin-top: 80px;
+  width: 480px;
+  height: auto;
+}
+
+.paragraft1 h2 {
+  font-size: 22px;
+  margin-block-start: 15px;
+  margin-block-end: 15px;
+}
+
+.paragraft1 p {
+  font-size: 15px;
+  line-height: 20px;
+  color: #000;
+}
+
+.row3 .gambar3 {
+  float: left;
+  width: 50%;
+}
+
+.row3 .gambar3 img#truck {
+  margin-top: 110px;
+  width: 505px;
+  height: auto;
+}
+
+.row3 .gambar3 .text4 {
+  float: left;
+  width: 100%;
+  height: unset;
+}
+
+.row3 .gambar3 .text4 .work1,
+.row3 .gambar3 .text4 .work2,
+.row3 .gambar3 .text4 .work3 {
+  display: flex;
+  margin-top: 15px;
+}
+
+.work1 img,
+.work3 img {
+  height: 24px;
+}
+
+.work1 img,
+.work2 img,
+.work3 img {
+  width: unset;
+  margin-top: 10px;
+}
+
+.row3 .gambar3 .text4 .work1 .signup,
+.row3 .gambar3 .text4 .work2 .set,
+.row3 .gambar3 .text4 .work3 .first {
+  float: left;
+  height: unset;
+  padding-left: 15px;
+}
+
+.row3 .gambar3 .text4 .work1 .signup h2,
+.row3 .gambar3 .text4 .work2 .set h2,
+.row3 .gambar3 .text4 .work3 .first h2 {
+  font-size: 22px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.row3 .gambar3 .text4 .work1 .signup p,
+.row3 .gambar3 .text4 .work2 .set p,
+.row3 .gambar3 .text4 .work3 .first p {
+  margin-block-start: 11px;
+  margin-block-end: 11px;
+  font-size: 15px;
+}
+
+.row4 {
+  float: left;
+  width: 100%;
+  height: unset;
+  background: #7aa814;
+}
+
+.row4 .border {
+  width: 100%;
+  height: 15px;
+  position: relative;
+  background: #587e05;
+}
+
+.row4 h2#costumor {
+  margin-top: 80px;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+}
+
+.row4 .colom1 {
+  width: 45%;
+  float: left;
+  background: #fff;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.row4 .colom1 p,
+.row4 .colom2 p {
+  font-size: 15px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.row4 .colom1 p:nth-child(3),
+.row4 .colom1 p:nth-child(4),
+.row4 .colom2 p:nth-child(4),
+.row4 .colom2 p:nth-child(5) {
+  font-weight: bolder;
+}
+
+.row4 .colom2 p:nth-child(4) {
+  margin-top: 17px;
+}
+
+.row4 .colom1 p:nth-child(4),
+.row4 .colom2 p:nth-child(4) {
+  line-height: 0px;
+}
+
+.row4 .colom2 {
+  width: 45%;
+  float: right;
+  background: #fff;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.row4 .last {
+  float: right;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.row4 .last h2 {
+  margin-top: 50px;
+  float: left;
+  left: 0;
+  color: #fff;
+  font-size: 22px;
+  margin-block-start: 45px;
+  margin-block-end: 0;
+}
+
+.row4 .last .btn {
+  float: right;
+  position: relative;
+}
+
+.row4 .last .btn button {
+  width: 237px;
+  margin-top: 40px;
+  background: #383838;
+  border: none;
+  border-radius: 90px;
+  padding: 10px 50px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+}
+
+.row4 .last .btn button:nth-child(1) {
+  float: left;
+  margin-right: 20px;
+}
+/* @media screen and (max-width:1440px) {
+  .row4 .last .btn button:nth-child(1) {
+      float: left;
+      margin-right: 50px;
+  }
+} */
+
+@media screen and (max-width: 1020px) {
+  .row1 img {
+    width: 320px;
+    height: 320px;
+  }
+  .row1 .text h2 {
+    font-size: 18px;
+    margin-top: 200px;
+  }
+  .row1 .text p {
+    font-size: 13px;
+  }
+  .row1 .text br:nth-child(3),
+  .row1 .text br:nth-child(4) {
+    display: none;
+  }
+  .row1 .text .btn1 {
+    font-size: 13px;
+  }
+  .row2 .text2 h2 {
+    font-size: 18px;
+  }
+  .row2 .text2 p {
+    font-size: 13px;
+    margin-block-start: 0;
+  }
+  .row2 .text2 p:nth-child(2) {
+    margin-top: 20px;
+  }
+  .row2 .text2 p:nth-child(3),
+  .row2 .text2 p:nth-child(4) {
+    margin-top: 20px;
+  }
+  .row2 .text2 p:nth-child(3) br,
+  .row2 .text2 p:nth-child(4) br {
+    display: none;
+  }
+  .row2 .video video {
+    width: 300px;
+    margin-top: 80px;
+    padding: 20px 20px 15px 20px;
+    border-radius: 18px;
+    margin-left: 40px;
+  }
+  .row3 .text3 .gambar2 img {
+    width: 350px;
+  }
+  .paragraft1 h2 {
+    font-size: 18px;
+  }
+  .paragraft1 p {
+    font-size: 13px;
+  }
+  .row3 .gambar3 img#truck {
+    margin-top: 90px;
+    width: 380px;
+  }
+  .row3 .gambar3 .text4 .work1 .signup h2,
+  .row3 .gambar3 .text4 .work2 .set h2,
+  .row3 .gambar3 .text4 .work3 .first h2 {
+    font-size: 18px;
+  }
+  .row3 .gambar3 .text4 .work1 .signup p,
+  .row3 .gambar3 .text4 .work2 .set p,
+  .row3 .gambar3 .text4 .work3 .first p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-block-end: 0;
+  }
+  .row4 h2#costumor {
+    font-size: 18px;
+  }
+  .row4 .colom1 p,
+  .row4 .colom2 p {
+    font-size: 13px;
+  }
+  .row4 .colom1 {
+    width: 43%;
+  }
+  .row4 .colom2 {
+    width: 43%;
+  }
+  .row4 .last h2 {
+    font-size: 18px;
+    margin-block-start: 30px;
+  }
+  .row4 .last .btn button {
+    font-size: 13px;
+    width: 150px;
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+  .menu-toggle {
+    display: none;
+  }
+  .row4 .last .btn button:nth-child(1) {
+    margin-right: 68px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* .header {
+  height: 60px;
+  position: fixed;
+  background: #fff;
+}
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+.header .navigation {
+  margin-top: 25px;
+}
+.header .navigation li:last-child {
+  margin-left: 20px;
+}
+.header .navigation li {
+  margin-left: 20px;
+  font-size: 13px;
+}
+.header .btn {
+  margin-top: 22px;
+}
+.header .btn li a {
+  border-radius: 18px;
+  font-size: 13px;
+} */
+  header nav ul {
+    margin-left: 0;
+  }
+  header nav ul li {
+    margin-left: 10px;
+  }
+  header nav ul li:nth-child(6) {
+    margin-right: 50px;
+  }
+  header nav ul li:nth-child(7) {
+    margin-left: 0px;
+  }
+  header nav ul li a {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  li.try a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+  }
+  .menu-toggle {
+    display: none;
+  }
+  .row1 img {
+    width: 250px;
+    height: 250px;
+    margin-top: 100px;
+  }
+  .row1 .text h2 {
+    font-size: 16px;
+    margin-top: 160px;
+  }
+  .row1 .text p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .row1 .text br:nth-child(5) {
+    display: none;
+  }
+  .row1 {
+    margin-bottom: 0px;
+  }
+  .row1 .text .btn1 {
+    font-size: 12px;
+    margin-bottom: 80px;
+    float: left;
+    margin-top: 0px;
+    padding: 8px 10px 8px 10px;
+  }
+  .row2 .text2 h2 {
+    font-size: 16px;
+  }
+  .row2 .text2 p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .row2 .text2 p br {
+    display: none;
+  }
+  .row2 .video video {
+    width: 220px;
+    margin-top: 80px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 16px;
+    margin-left: 0;
+  }
+  .row2 .text2 p:nth-child(3),
+  .row2 .text2 p:nth-child(4) {
+    margin-top: 10px;
+  }
+  .row3 .text3 .gambar2 img {
+    width: 270px;
+  }
+  .paragraft1 p br {
+    display: none;
+  }
+  .paragraft1 p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .row3 .gambar3 img#truck {
+    width: 280px;
+  }
+  .row3 .gambar3 .text4 .work1 {
+    margin-top: 25px;
+  }
+  .row3 .gambar3 .text4 {
+    padding-left: 15px;
+  }
+  .row3 .gambar3 .text4 .work1 .signup p,
+  .row3 .gambar3 .text4 .work2 .set p,
+  .row3 .gambar3 .text4 .work3 .first p {
+    line-height: 15px;
+    font-size: 12px;
+  }
+  .row4 .colom1 {
+    width: 40%;
+  }
+  .row4 .colom1 p,
+  .row4 .colom2 p {
+    font-size: 12px;
+  }
+  .row4 .colom1 p br,
+  .row4 .colom2 p br {
+    display: none;
+  }
+  .row4 .colom2 {
+    width: 40%;
+  }
+  .row4 .colom2 p:nth-child(5) {
+    margin-block-end: 0;
+  }
+  .row4 .colom2 p:nth-child(4) {
+    margin-top: 26px;
+  }
+  .row4 .last h2 {
+    font-size: 13px;
+  }
+  .row4 .last .btn button {
+    font-size: 11px;
+    width: 120px;
+    margin-top: 20px;
+    padding: 5px 5px;
+  }
+  .row4 .last .btn button:nth-child(1) {
+    margin-right: 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    width: 90%;
+  }
+  header {
+    padding: 0;
+  }
+  header nav {
+    position: absolute;
+    width: 50%;
+    top: 70px;
+    height: 330px;
+    background: whitesmoke;
+    left: -100%;
+    transition: 0.5s;
+  }
+  /* header nav {
+ 
+  
+} */
+  header nav.aktif {
+    left: 0;
+  }
+  header nav ul,
+  header button {
+    display: block;
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-left: 0;
+  }
+  header nav ul li {
+    margin-left: 0;
+  }
+  header nav ul li:nth-child(6) {
+    margin-right: 0px;
+  }
+  header nav ul li a {
+    padding: 0 15px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    line-height: 40px;
+    height: 40px;
+  }
+  header ul li button {
+    position: absolute;
+    margin-left: 55px;
+  }
+  .menu-toggle {
+    display: block;
+    margin-top: 25px;
+  }
+  .row1 img {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+  }
+  .row1 .text {
+    float: none;
+    width: 100%;
+  }
+  .row2 .text2 {
+    width: 100%;
+  }
+  .row2 .text2 p:nth-child(4) {
+    margin-bottom: 0px;
+  }
+  .row2 .video video {
+    width: 95%;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+  .row3 .text3 {
+    width: 100%;
+  }
+  .row3 .text3 .gambar2 img {
+    width: 100%;
+  }
+  .row3 .gambar3 {
+    width: 100%;
+  }
+  .row3 .gambar3 img#truck {
+    width: 100%;
+  }
+  .row3 .gambar3 .text4 {
+    padding-left: 0;
+  }
+  .row4 .colom1 {
+    width: 90%;
+    float: left;
+  }
+  .row4 .colom2 {
+    width: 90%;
+    float: left;
+  }
+  .row4 .last .btn {
+    float: left;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  header ul li button {
+    margin-left: 40px;
+  }
+  .row1 img {
+    margin-left: 35px;
+    margin-right: 40px;
+  }
+  .row2 .video video {
+    width: 93%;
+  }
+  .row3 .gambar3 img#truck {
+    margin-top: 50px;
+  }
+  .row4 .colom1,
+  .row4 .colom2 {
+    width: 87%;
+  }
+}
